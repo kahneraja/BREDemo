@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Web
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{688CCC77-F8F6-43BC-A55B-A57198485A28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{2A1B6F08-9BCC-4D89-A426-FFD9717F9F1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{6C9D3ACD-946E-43F7-94B6-D5B4AA0FAC35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BREDemo.Business.RulesEngine", "BREDemo.Business.RulesEngine\BREDemo.Business.RulesEngine.csproj", "{A7179DCD-D048-4E71-928C-C289974113E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BREDemo.Data.Entities", "BREDemo.Data.Entities\BREDemo.Data.Entities.csproj", "{E136A05B-C723-45F5-882B-EF3049DC2B50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specifications", "Specifications\Specifications.csproj", "{760B02F3-7C2C-4575-AACA-D55651ABB914}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7179DCD-D048-4E71-928C-C289974113E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7179DCD-D048-4E71-928C-C289974113E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7179DCD-D048-4E71-928C-C289974113E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7179DCD-D048-4E71-928C-C289974113E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E136A05B-C723-45F5-882B-EF3049DC2B50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E136A05B-C723-45F5-882B-EF3049DC2B50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E136A05B-C723-45F5-882B-EF3049DC2B50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E136A05B-C723-45F5-882B-EF3049DC2B50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{760B02F3-7C2C-4575-AACA-D55651ABB914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{760B02F3-7C2C-4575-AACA-D55651ABB914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{760B02F3-7C2C-4575-AACA-D55651ABB914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{760B02F3-7C2C-4575-AACA-D55651ABB914}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{760B02F3-7C2C-4575-AACA-D55651ABB914} = {688CCC77-F8F6-43BC-A55B-A57198485A28}
+		{A7179DCD-D048-4E71-928C-C289974113E3} = {2A1B6F08-9BCC-4D89-A426-FFD9717F9F1C}
+		{E136A05B-C723-45F5-882B-EF3049DC2B50} = {6C9D3ACD-946E-43F7-94B6-D5B4AA0FAC35}
+	EndGlobalSection
+EndGlobal
